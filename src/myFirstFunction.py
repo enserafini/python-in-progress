@@ -7,17 +7,17 @@ import re
 import sys
 
 def myFirstFunction(n):
-    if n<1 or n>100:
-        print("not valid number")
-    elif (n%2)!=0:
-        print("Weird")
-    elif(n%2)==0 and 2<=n and 5>=n:
-        print("Not Weird")
-    elif(n%2)==0 and 6<=n and 20>=n:
-        print("Weird")
-    elif(n%2)==0 and 20<n and 100>=n:
-        print("Not Weird")
+  if n<1 or n>100:
+    print("not valid number")
+  elif (n%2)!=0:
+    print("Weird")
+  elif(n%2)==0 and 2<=n and 5>=n:
+    print("Not Weird")
+  elif(n%2)==0 and 6<=n and 20>=n:
+    print("Weird")
+  elif(n%2)==0 and 20<n and 100>=n:
+    print("Not Weird")
 
 if __name__ == '__main__':
-    n = int(input().strip())
-    myFirstFunction(n)
+	n = int(input().strip())
+	myFirstFunction(n)

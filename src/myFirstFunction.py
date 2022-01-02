@@ -7,7 +7,9 @@ import re
 import sys
 
 def myFirstFunction(n):
-    if (n%2)!=0:
+    if n<1 or n>100:
+        print("not valid number")
+    elif (n%2)!=0:
         print("Weird")
     elif(n%2)==0 and 2<=n and 5>=n:
         print("Not Weird")
